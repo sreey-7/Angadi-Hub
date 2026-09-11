@@ -2,16 +2,16 @@
 
 
 
-# [Angadi Hub] 🎯
+# Angadi Hub 🎯
 
 
 ## Basic Details
-### Team Name: [Pro gang]
+### Team Name: Pro gang
 
 
 ### Team Members
-- Team Lead: [Arjun Shiju] - [Albertian Institute of Science and Technology (AISAT)]
-- Member 2: [Sreelakshmi KS] - [Albertian Institute of Science and Technology (AISAT)]
+- Team Lead: Arjun Shiju -Albertian Institute of Science and Technology (AISAT)
+- Member 2: Sreelakshmi KS -Albertian Institute of Science and Technology (AISAT)
 
 ### Project Description
 A blazing-fast, highly unnecessary Next.js e-commerce platform dedicated exclusively to selling fictional, mythological, and historically exaggerated items from Kerala lore.
