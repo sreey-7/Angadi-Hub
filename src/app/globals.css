@@ -1,0 +1,57 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-gold-300: #e2c76b;
+    --color-gold-400: #c9a84c;
+    --color-gold-500: #a8883a;
+    --color-parchment: #f0e6d3;
+    --color-jade-300: #6ee7b7;
+    --color-jade-900: #064e3b;
+    --font-display: var(--font-playfair), Georgia, serif;
+    --font-sans: var(--font-inter), system-ui, sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-parchment);
+    background-color: #0d0d1a;
+  }
+
+  .font-display { font-family: var(--font-display); }
+}
+
+@layer utilities {
+  .text-parchment  { color: var(--color-parchment); }
+  .bg-parchment    { background-color: var(--color-parchment); }
+
+  .text-gold-300   { color: var(--color-gold-300); }
+  .text-gold-400   { color: var(--color-gold-400); }
+  .text-gold-500   { color: var(--color-gold-500); }
+
+  .bg-gold-300     { background-color: var(--color-gold-300); }
+  .bg-gold-400     { background-color: var(--color-gold-400); }
+  .bg-gold-400\/10 { background-color: rgba(201, 168, 76, 0.10); }
+  .bg-gold-400\/20 { background-color: rgba(201, 168, 76, 0.20); }
+
+  .border-gold-400\/25 { border-color: rgba(201, 168, 76, 0.25); }
+  .border-gold-400\/30 { border-color: rgba(201, 168, 76, 0.30); }
+  .border-gold-400\/40 { border-color: rgba(201, 168, 76, 0.40); }
+  .border-gold-400\/60 { border-color: rgba(201, 168, 76, 0.60); }
+
+  .text-jade-300   { color: var(--color-jade-300); }
+
+  .shadow-gold-400\/10 { --tw-shadow-color: rgba(201, 168, 76, 0.10); }
+
+  ::-webkit-scrollbar               { width: 6px; }
+  ::-webkit-scrollbar-track         { background: #0d0d1a; }
+  ::-webkit-scrollbar-thumb         { background: #2a2a3a; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover   { background: #3a3a4a; }
+}
