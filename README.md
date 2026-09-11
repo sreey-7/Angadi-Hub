@@ -2,17 +2,16 @@
 
 
 
-# [Project Name] 🎯
+# [Angadi Hub] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Pro gang]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Arjun Shiju] - [Albertian Institute of Science and Technology (AISAT)]
+- Member 2: [Sreelakshmi KS] - [Albertian Institute of Science and Technology (AISAT)]
 
 ### Project Description
 [2-3 lines about what your project does]
