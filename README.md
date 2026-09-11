@@ -14,34 +14,48 @@
 - Member 2: [Sreelakshmi KS] - [Albertian Institute of Science and Technology (AISAT)]
 
 ### Project Description
-[2-3 lines about what your project does]
+A blazing-fast, highly unnecessary Next.js e-commerce platform dedicated exclusively to selling fictional, mythological, and historically exaggerated items from Kerala lore.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People in 2026 are suffering from a severe lack of access to once-in-a-12-year magical flowers (Neelakurinji), ancient Travancore mint coins (Kamattam), and legendary elephant tusks to solve their minor daily inconveniences. Furthermore, modern e-commerce sites lack dramatic, interactive storytelling for the products they sell.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We built a meticulously engineered, modern web storefront to simulate buying these completely non-existent items. Why stop at a basic "Add to Cart" button when you can have an immersive "Lore Viewer" that dramatically explains the mythical origins of a fake coin before you buy it with fake money through a test-mode payment gateway?
 
 ## Technical Details
+Technologies/Components Used
+
+For Software:
+
+    Languages used: TypeScript, HTML, CSS
+
+    Frameworks used: Next.js 15 (App Router), Tailwind CSS
+
+    Libraries used: Zustand (for Cart State), Framer Motion / React Three Fiber (for the interactive Lore UI)
+
+    Tools used: VS Code, Git/GitHub, npm
+
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- **Languages used:** TypeScript, HTML, CSS
+- **Frameworks used:** Next.js 15 (App Router), Tailwind CSS
+- **Libraries used:** Zustand (for Cart State), Framer Motion / React Three Fiber (for the interactive Lore UI)
+- **Tools used:** VS Code, Git/GitHub, npm
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+```bash
+git clone [your-repo-link]
+cd angadi-hub
+npm install
+```
 
 # Run
-[commands]
+```bash
+npm run dev
+# The storefront will be available at http://localhost:3000
+```
 
 ### Project Documentation
 For Software:
@@ -88,9 +102,8 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- **Arjun Shiju**: Next.js App Router architecture, project setup, routing, and payment gateway integration logic.
+- **Sreelakshmi KS**: Tailwind CSS UI/UX design, building the reusable `ProductCard` components, and crafting the interactive Lore Viewer styling.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
