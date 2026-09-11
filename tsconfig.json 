@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    // ── Language & Environment ───────────────────────────
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+
+    // ── Strict type checking ─────────────────────────────
+    "strict": true,
+    "noEmit": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    // ── Module resolution ────────────────────────────────
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+
+    // ── Build performance ────────────────────────────────
+    "incremental": true,
+
+    // ── Next.js plugin ───────────────────────────────────
+    "plugins": [
+      { "name": "next" }
+    ],
+
+    // ── Path aliases — @/* maps to src/* ─────────────────
+    // This is what lets us write:
+    //   import { dummyProducts } from "@/lib/dummyData"
+    // instead of:
+    //   import { dummyProducts } from "../../lib/dummyData"
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    "baseUrl": "."
+  },
+
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+
+  "exclude": [
+    "node_modules"
+  ]
+}
